@@ -21,7 +21,7 @@ export const Projects: React.FC = () => {
       id: 1,
       title: 'Recycle Center Simulator',
       description: 'A 3D resource management game where you manage a recycling facility. Take on recycling jobs, collect trash from abandoned locations, and transform waste into valuable materials using specialized machines.',
-      image: '/images/recycle-center-simulator.jpg',
+      image: '/images/project1.jpg',
       technologies: ['Unity 3D', 'C#', 'Resource Management', '3D Physics'],
       role: 'Unity Developer',
       features: [
@@ -37,7 +37,7 @@ export const Projects: React.FC = () => {
       id: 2,
       title: 'Tangle Master',
       description: 'A hypercasual 3D puzzle game focused on untangling ropes and solving increasingly complex knot-based challenges. Features intuitive controls and physics-based interactions.',
-      image: '/images/tangle-master.jpg',
+      image: '/images/project2.jpg',
       technologies: ['Unity 3D', 'C#', 'Physics System', 'Level Design'],
       role: 'Unity Developer',
       features: [
@@ -53,7 +53,7 @@ export const Projects: React.FC = () => {
       id: 3,
       title: 'Home Hammer 2D',
       description: 'An ASMR-focused home repair simulation game where players restore a broken home through various repair tasks. Features satisfying sound effects and smooth animations.',
-      image: '/images/home-hammer-2d.jpg',
+      image: '/images/project3.jpg',
       technologies: ['Unity 2D', 'C#', 'ASMR Design', 'Animation'],
       role: 'Unity Developer',
       features: [
