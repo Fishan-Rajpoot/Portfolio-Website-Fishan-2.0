@@ -17,16 +17,16 @@ export const Experience: React.FC = () => {
   const experiences: Experience[] = [
     {
       id: 1,
-      title: 'Senior Unity Developer',
-      company: 'GameCraft Studios',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Lead development of multiple AAA-quality games using Unity and C#.',
-      skills: ['Unity 3D', 'C#', 'HDRP', 'Performance Optimization'],
+      title: 'Game Developer',
+      company: 'Euphoria XR',
+      location: 'Remote',
+      period: 'Feb 2024 - Present',
+      description: 'Part-time game developer working on various Unity projects.',
+      skills: ['Unity 3D', 'Unity 2D', 'C#', 'Level Design'],
       achievements: [
-        'Optimized rendering pipeline, improving performance by 40%',
-        'Mentored junior developers and established coding standards',
-        'Implemented procedural generation system for world creation'
+        'Create mechanics using Unity and C#',
+        'Build scenes using 3D and 2D art provided by artists',
+        'Implement level design and gameplay flow'
       ],
       logo: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg',
     },
@@ -84,9 +84,7 @@ export const Experience: React.FC = () => {
           {experiences.map((exp, index) => (
             <div 
               key={exp.id}
-              className={`mb-16 relative ${
-                index % 2 === 0 ? 'md:text-right' : 'md:text-left'
-              }`}
+              className="mb-16 relative md:text-left"
             >
               {/* Experience card */}
               <div className={`
@@ -145,7 +143,7 @@ export const Experience: React.FC = () => {
                 {/* Achievements */}
                 <div>
                   <span className="text-xs text-white font-heading">ACHIEVEMENTS</span>
-                  <ul className="list-disc list-inside text-text-secondary text-sm mt-2">
+                  <ul className="list-disc list-inside text-text-secondary text-sm mt-2 text-left">
                     {exp.achievements.map((achievement, achieveIndex) => (
                       <li key={achieveIndex}>{achievement}</li>
                     ))}
