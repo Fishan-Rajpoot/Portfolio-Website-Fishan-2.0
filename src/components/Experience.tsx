@@ -28,7 +28,7 @@ export const Experience: React.FC = () => {
         'Build scenes using 3D and 2D art provided by artists',
         'Implement level design and gameplay flow'
       ],
-      logo: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg',
+      logo: '/images/euphoria.png',
     },
     {
       id: 2,
